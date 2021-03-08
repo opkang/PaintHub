@@ -1,0 +1,592 @@
+﻿.pipe .pipe-main .pipe-step-1, .pipe .pipe-main .pipe-step-2, .pipe .pipe-main .pipe-step-3 {
+    position: relative;
+    background-color: #fff;
+    padding: 40px
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main .pipe-step-1, .pipe .pipe-main .pipe-step-2, .pipe .pipe-main .pipe-step-3 {
+        padding: 20px
+    }
+}
+
+.pipe .pipe-main .pipe-step-1.off, .pipe .pipe-main .pipe-step-2.off, .pipe .pipe-main .pipe-step-3.off {
+    opacity: .4;
+    height: 90px;
+    padding: 0 40px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main .pipe-step-1.off, .pipe .pipe-main .pipe-step-2.off, .pipe .pipe-main .pipe-step-3.off {
+        height: 135px;
+        padding: 0
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main .pipe-step-1.off, .pipe .pipe-main .pipe-step-2.off, .pipe .pipe-main .pipe-step-3.off {
+        height: auto;
+        padding-bottom: 20px
+    }
+}
+
+.pipe .pipe-main .pipe-step-1.off span.step, .pipe .pipe-main .pipe-step-2.off span.step, .pipe .pipe-main .pipe-step-3.off span.step {
+    top: 15px
+}
+
+.pipe .pipe-main .pipe-step-1.off h2, .pipe .pipe-main .pipe-step-2.off h2, .pipe .pipe-main .pipe-step-3.off h2 {
+    line-height: 90px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main .pipe-step-1.off h2, .pipe .pipe-main .pipe-step-2.off h2, .pipe .pipe-main .pipe-step-3.off h2 {
+        line-height: 130px;
+        line-height: 30px;
+        font-size: 20px;
+        padding-top: 80px
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main [type=checkbox]:checked + label:after, .pipe .pipe-main [type=checkbox]:not(:checked) + label:after {
+        top: 9px;
+        left: 6px;
+        font-size: 13px
+    }
+}
+
+.pipe .pipe-main span.step {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    background-color: #d5a770;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+    top: 30px;
+    left: -22.5px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main span.step {
+        left: 50%;
+        top: -22.5px;
+        margin-left: -22.5px
+    }
+}
+
+.pipe .pipe-main h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 25px
+}
+
+    .pipe .pipe-main h2 a:hover {
+        color: #000
+    }
+
+@media (max-width:991px) {
+    .pipe .pipe-main h2 {
+        text-align: center;
+        margin-left: inherit;
+        padding-top: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main h2 {
+        font-size: 22px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main header {
+        text-align: center
+    }
+}
+
+.pipe .pipe-main .link {
+    margin-left: 20px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main .link {
+        text-align: center;
+        margin-left: inherit
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main .link {
+        font-size: 10px;
+        line-height: 12px;
+        border-bottom: 0;
+        padding: 0
+    }
+
+        .pipe .pipe-main .link:after {
+            display: none
+        }
+}
+
+.pipe .pipe-main .line {
+    height: 55px;
+    width: 1px;
+    margin: 0 auto;
+    background-color: #000
+}
+
+.pipe .pipe-main #form-payment .shipping-address, .pipe .pipe-main form .shipping-address {
+    margin-bottom: 15px
+}
+
+.pipe .pipe-main #form-payment h4, .pipe .pipe-main form h4 {
+    margin: 20px 0 15px;
+    text-decoration: underline
+}
+
+.pipe .pipe-main #form-payment .billing-address h4, .pipe .pipe-main form .billing-address h4 {
+    margin: 20px 0 5px
+}
+
+.pipe .pipe-main #form-payment #bitcoin-loading, .pipe .pipe-main form #bitcoin-loading {
+    margin-top: 20px
+}
+
+    .pipe .pipe-main #form-payment #bitcoin-loading span, .pipe .pipe-main form #bitcoin-loading span {
+        margin-left: 15px;
+        font-size: 13px
+    }
+
+.pipe .pipe-main #form-payment .secure-payment, .pipe .pipe-main form .secure-payment {
+    margin-top: 15px;
+    text-transform: uppercase
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .secure-payment, .pipe .pipe-main form .secure-payment {
+        text-align: center
+    }
+}
+
+.pipe .pipe-main #form-payment button, .pipe .pipe-main form button {
+    text-align: right;
+    margin-top: 10px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment button, .pipe .pipe-main form button {
+        text-align: center
+    }
+
+        .pipe .pipe-main #form-payment button.cta, .pipe .pipe-main form button.cta {
+            width: 100%
+        }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment button.cta, .pipe .pipe-main form button.cta {
+        padding: 14px 7px
+    }
+}
+
+.pipe .pipe-main #form-payment .input-element, .pipe .pipe-main form .input-element {
+    width: 100%;
+    display: block;
+    height: auto;
+    position: relative
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .input-element, .pipe .pipe-main form .input-element {
+        height: auto
+    }
+}
+
+.pipe .pipe-main #form-payment .input-element .radio-content label, .pipe .pipe-main form .input-element .radio-content label {
+    width: 180px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .input-element .radio-content, .pipe .pipe-main form .input-element .radio-content {
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment .input-element .radio-content label, .pipe .pipe-main form .input-element .radio-content label {
+        display: block;
+        margin-bottom: 10px
+    }
+
+    .pipe .pipe-main #form-payment .input-element .radio-content .radio-inline + .radio-inline, .pipe .pipe-main form .input-element .radio-content .radio-inline + .radio-inline {
+        margin-left: 0
+    }
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .input-element.check-element, .pipe .pipe-main form .input-element.check-element {
+        height: inherit
+    }
+}
+
+.pipe .pipe-main #form-payment .input-element.check-element [type=checkbox]:not(:checked) + label:before, .pipe .pipe-main form .input-element.check-element [type=checkbox]:not(:checked) + label:before {
+    background-color: #f2f2f2
+}
+
+.pipe .pipe-main #form-payment .input-element.check-element label, .pipe .pipe-main form .input-element.check-element label {
+    width: 100%;
+    padding-left: 40px
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .input-element.check-element label, .pipe .pipe-main #form-payment .input-element.check-element label a, .pipe .pipe-main form .input-element.check-element label, .pipe .pipe-main form .input-element.check-element label a {
+        font-size: 12px
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment .input-element.check-element label a, .pipe .pipe-main form .input-element.check-element label a {
+        text-align: left
+    }
+}
+
+.pipe .pipe-main #form-payment .input-element.check-element label .link, .pipe .pipe-main form .input-element.check-element label .link {
+    text-transform: none;
+    margin: 0;
+    padding: 0
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment .input-element.check-element label .link, .pipe .pipe-main form .input-element.check-element label .link {
+        display: inline
+    }
+}
+
+.pipe .pipe-main #form-payment .input-element select.small, .pipe .pipe-main form .input-element select.small {
+    width: 128px
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .input-element select.small, .pipe .pipe-main form .input-element select.small {
+        width: 108px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .input-element select.small, .pipe .pipe-main form .input-element select.small {
+        width: 49.5%;
+        display: inline-block
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment .input-element select.small, .pipe .pipe-main form .input-element select.small {
+        width: 48%
+    }
+}
+
+.pipe .pipe-main #form-payment .input-element.phone .phone-dual, .pipe .pipe-main form .input-element.phone .phone-dual {
+    font-weight: 300;
+    max-width: inherit;
+    width: 260px;
+    display: inline-block
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .input-element.phone .phone-dual, .pipe .pipe-main form .input-element.phone .phone-dual {
+        width: 200px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .input-element.phone .phone-dual, .pipe .pipe-main form .input-element.phone .phone-dual {
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment .input-element.phone .phone-dual, .pipe .pipe-main form .input-element.phone .phone-dual {
+        margin-bottom: 6px
+    }
+}
+
+.pipe .pipe-main #form-payment .error-message, .pipe .pipe-main form .error-message {
+    display: block;
+    margin-left: 135px;
+    color: red;
+    margin-bottom: 5px;
+    font-size: 9px
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .error-message, .pipe .pipe-main form .error-message {
+        margin-left: inherit
+    }
+}
+
+.pipe .pipe-main #form-payment label, .pipe .pipe-main form label {
+    font-weight: 500;
+    max-width: inherit;
+    width: 260px;
+    display: inline-block
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment label, .pipe .pipe-main form label {
+        width: 260px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment label, .pipe .pipe-main form label {
+        width: 100%
+    }
+}
+
+.pipe .pipe-main #form-payment label.label-check, .pipe .pipe-main form label.label-check {
+    color: #fff;
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 35px
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment label.label-check, .pipe .pipe-main form label.label-check {
+        font-size: 12px
+    }
+}
+
+.pipe .pipe-main #form-payment .info-general, .pipe .pipe-main form .info-general {
+    display: block;
+    width: 220px;
+    position: absolute;
+    left: 435px;
+    padding-left: 40px;
+    font-size: 12px;
+    color: #9c9c9c;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 30px
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .info-general, .pipe .pipe-main form .info-general {
+        width: 180px;
+        margin-left: 0;
+        font-size: 11px;
+        left: 390px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .info-general, .pipe .pipe-main form .info-general {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        position: relative;
+        height: auto;
+        margin-bottom: 10px
+    }
+}
+
+.pipe .pipe-main #form-payment .info-general .icon, .pipe .pipe-main form .info-general .icon {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #000
+}
+
+.pipe .pipe-main #form-payment .info-single, .pipe .pipe-main form .info-single {
+    display: inline-block;
+    width: 230px;
+    top: 20px;
+    position: relative;
+    padding-left: 32px;
+    font-size: 12px;
+    color: #9c9c9c;
+    font-style: italic;
+    font-weight: 300;
+    vertical-align: top;
+    margin-left: 30px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .info-single, .pipe .pipe-main form .info-single {
+        width: 130px;
+        font-size: 9px;
+        margin-left: 30px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .info-single, .pipe .pipe-main form .info-single {
+        display: none
+    }
+}
+
+.pipe .pipe-main #form-payment .info-single .icon, .pipe .pipe-main form .info-single .icon {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #000
+}
+
+.pipe .pipe-main #form-payment .title, .pipe .pipe-main form .title {
+    color: #000;
+    font-size: 12px;
+    width: 140px;
+    display: inline-block;
+    text-transform: uppercase
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment .title, .pipe .pipe-main form .title {
+        font-size: 9px;
+        width: 100px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment .title, .pipe .pipe-main form .title {
+        display: none
+    }
+}
+
+.pipe .pipe-main #form-payment .title span, .pipe .pipe-main form .title span {
+    color: #d5a770
+}
+
+.pipe .pipe-main #form-payment .select, .pipe .pipe-main form .select {
+    position: relative
+}
+
+    .pipe .pipe-main #form-payment .select:after, .pipe .pipe-main form .select:after {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        right: 2px;
+        top: 3px;
+        z-index: 999;
+        display: block
+    }
+
+.pipe .pipe-main #form-payment #card-holder-name, .pipe .pipe-main form #card-holder-name {
+    width: 100%
+}
+
+.pipe .pipe-main #form-payment #submit-payment:disabled, .pipe .pipe-main form #submit-payment:disabled {
+    cursor: not-allowed;
+    background-color: #efefef
+}
+
+.pipe .pipe-main #form-payment input[type=email], .pipe .pipe-main #form-payment input[type=tel], .pipe .pipe-main #form-payment input[type=text], .pipe .pipe-main #form-payment input[type=url], .pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment textarea, .pipe .pipe-main form input[type=email], .pipe .pipe-main form input[type=tel], .pipe .pipe-main form input[type=text], .pipe .pipe-main form input[type=url], .pipe .pipe-main form select, .pipe .pipe-main form textarea {
+    background-color: #f2f2f2;
+    border: 2px solid transparent;
+    border-radius: 0;
+    clear: both;
+    display: inline-block;
+    width: 260px;
+    padding: 12px 10px 12px 20px;
+    outline: 0;
+    font-weight: 300;
+    line-height: 1.3em;
+    height: 52px;
+    -webkit-appearance: none;
+    color: #000;
+    box-shadow: inherit;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+@media (max-width:1199px) {
+    .pipe .pipe-main #form-payment input[type=email], .pipe .pipe-main #form-payment input[type=tel], .pipe .pipe-main #form-payment input[type=text], .pipe .pipe-main #form-payment input[type=url], .pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment textarea, .pipe .pipe-main form input[type=email], .pipe .pipe-main form input[type=tel], .pipe .pipe-main form input[type=text], .pipe .pipe-main form input[type=url], .pipe .pipe-main form select, .pipe .pipe-main form textarea {
+        width: 260px
+    }
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment input[type=email], .pipe .pipe-main #form-payment input[type=tel], .pipe .pipe-main #form-payment input[type=text], .pipe .pipe-main #form-payment input[type=url], .pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment textarea, .pipe .pipe-main form input[type=email], .pipe .pipe-main form input[type=tel], .pipe .pipe-main form input[type=text], .pipe .pipe-main form input[type=url], .pipe .pipe-main form select, .pipe .pipe-main form textarea {
+        width: 100%;
+        display: block
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment input[type=email], .pipe .pipe-main #form-payment input[type=tel], .pipe .pipe-main #form-payment input[type=text], .pipe .pipe-main #form-payment input[type=url], .pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment textarea, .pipe .pipe-main form input[type=email], .pipe .pipe-main form input[type=tel], .pipe .pipe-main form input[type=text], .pipe .pipe-main form input[type=url], .pipe .pipe-main form select, .pipe .pipe-main form textarea {
+        font-weight: 500
+    }
+}
+
+.pipe .pipe-main #form-payment input[type=email].error, .pipe .pipe-main #form-payment input[type=tel].error, .pipe .pipe-main #form-payment input[type=text].error, .pipe .pipe-main #form-payment input[type=url].error, .pipe .pipe-main #form-payment select.error, .pipe .pipe-main #form-payment textarea.error, .pipe .pipe-main form input[type=email].error, .pipe .pipe-main form input[type=tel].error, .pipe .pipe-main form input[type=text].error, .pipe .pipe-main form input[type=url].error, .pipe .pipe-main form select.error, .pipe .pipe-main form textarea.error {
+    border: 2px solid red;
+    color: red
+}
+
+.pipe .pipe-main #form-payment input[type=email].valide, .pipe .pipe-main #form-payment input[type=tel].valide, .pipe .pipe-main #form-payment input[type=text].valide, .pipe .pipe-main #form-payment input[type=url].valide, .pipe .pipe-main form input[type=email].valide, .pipe .pipe-main form input[type=tel].valide, .pipe .pipe-main form input[type=text].valide, .pipe .pipe-main form input[type=url].valide {
+    background-image: url(https://d17h7hjnfv5s46.cloudfront.net/assets/build/images/ico_valide_input.f9575593.png);
+    background-size: 18px auto;
+    background-position: 92%;
+    background-repeat: no-repeat
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment input[type=email].valide, .pipe .pipe-main #form-payment input[type=tel].valide, .pipe .pipe-main #form-payment input[type=text].valide, .pipe .pipe-main #form-payment input[type=url].valide, .pipe .pipe-main form input[type=email].valide, .pipe .pipe-main form input[type=tel].valide, .pipe .pipe-main form input[type=text].valide, .pipe .pipe-main form input[type=url].valide {
+        background-position: 98%
+    }
+}
+
+.pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment select:focus, .pipe .pipe-main form select, .pipe .pipe-main form select:focus {
+    background-image: url(https://d17h7hjnfv5s46.cloudfront.net/assets/build/images/ico_arrow_simple_bottom_black.41e302d7.svg);
+    background-size: 18px auto;
+    background-position: 92%;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    color: #000;
+    border-color: #e3e3e3;
+    -moz-appearance: none;
+    -moz-transition: inherit
+}
+
+@media (max-width:991px) {
+    .pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment select:focus, .pipe .pipe-main form select, .pipe .pipe-main form select:focus {
+        background-position: 98%
+    }
+}
+
+@media (max-width:767px) {
+    .pipe .pipe-main #form-payment select, .pipe .pipe-main #form-payment select:focus, .pipe .pipe-main form select, .pipe .pipe-main form select:focus {
+        background-position: 90%;
+        background-size: 12px auto
+    }
+}
+
+.pipe .pipe-main #form-payment select:-moz-focusring, .pipe .pipe-main #form-payment select:focus:-moz-focusring, .pipe .pipe-main form select:-moz-focusring, .pipe .pipe-main form select:focus:-moz-focusring {
+    outline: none !important
+}
+
+.pipe .pipe-main #form-payment select::-moz-focus-inner, .pipe .pipe-main #form-payment select:focus::-moz-focus-inner, .pipe .pipe-main form select::-moz-focus-inner, .pipe .pipe-main form select:focus::-moz-focus-inner {
+    padding: 0;
+    border: none;
+    outline: none !important
+}
+
+.pipe .pipe-main #form-payment input:focus[type=email], .pipe .pipe-main #form-payment input:focus[type=tel], .pipe .pipe-main #form-payment input:focus[type=text], .pipe .pipe-main #form-payment input:focus[type=url], .pipe .pipe-main #form-payment select:focus, .pipe .pipe-main #form-payment textarea:focus, .pipe .pipe-main form input:focus[type=email], .pipe .pipe-main form input:focus[type=tel], .pipe .pipe-main form input:focus[type=text], .pipe .pipe-main form input:focus[type=url], .pipe .pipe-main form select:focus, .pipe .pipe-main form textarea:focus {
+    border-color: #5c5c5c;
+    color: #181818;
+    font-weight: 500;
+    background-color: #f2f2f2;
+    padding-left: 20px
+}
+
+.pipe .pipe-main #form-payment textarea, .pipe .pipe-main form textarea {
+    height: 150px;
+    margin-top: 5px
+}
